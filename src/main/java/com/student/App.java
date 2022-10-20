@@ -4,10 +4,12 @@ package com.student;
  * Hello world!
  *
  */
+import com.student.studentService;
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        studentService service=new studentService();
+	service.welcome();
     }
 }
